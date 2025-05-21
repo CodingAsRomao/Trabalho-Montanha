@@ -9,12 +9,12 @@ A classe `Carro` representa um veículo com informações básicas como marca, m
 
 | Nome             | Tipo    | Visibilidade | Descrição                          |
 |------------------|---------|--------------|------------------------------------|
-| marca            | String  | privada (-)  | Fabricante do carro                |
-| modelo           | String  | privada (-)  | Modelo do carro                    |
-| ano              | int     | privada (-)  | Ano de fabricação                  |
-| cor              | String  | privada (-)  | Cor do veículo                     |
-| velocidadeAtual  | double  | privada (-)  | Velocidade atual do carro          |
-| ligado           | boolean | privada (-)  | Indica se o carro está ligado      |
+| Marca            | String  | privada (-)  | Fabricante do carro                |
+| Modelo           | String  | privada (-)  | Modelo do carro                    |
+| Ano              | int     | privada (-)  | Ano de fabricação                  |
+| Cor              | String  | privada (-)  | Cor do veículo                     |
+| VelocidadeAtual  | double  | privada (-)  | Velocidade atual do carro          |
+| Ligado           | boolean | privada (-)  | Indica se o carro está ligado      |
 
 ---
 
