@@ -1,0 +1,8 @@
+| Atributo       | Tipo    | Descrição breve                    | Papel no sistema                                         |
+| -------------- | ------- | ------------------------------     | -------------------------------------------------------- |
+| Marca          | String  | Fabricante do veículo              | Identificar origem e possibilitar filtragens/relatórios  |
+| Modelo         | String  | Versão ou linha do carro           | Diferenciar configurações de um mesmo fabricante         |
+| Ano            | int     | Ano de fabricação                  | Apoiar cálculos de depreciação, manutenção, etc.         |
+| Cor            | String  | Cor externa                        | Facilitar identificação visual do veículo                |
+| VelocidadeAtual| double  | Velocidade instantânea (km/h)      | Permitir a simulação de movimento (acelerar/frear)       |
+| Ligado         | boolean | Estado do motor (ligado/desligado) | Controlar transições de estado e impedir ações inválidas |
